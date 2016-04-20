@@ -2,9 +2,9 @@ title:  Stay Hungry, Stay Foolish。
 home: codeyuyu
 paginate: 8
 email: codeyuyu@gmail.com
-production_url: http://searchp.cc
+production_url: http://codeyuyu.github.io/
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://searchp.cc" # the base hostname & protocol for your site
+url: "http://codeyuyu.github.io/" # the base hostname & protocol for your site
 permalink: /:year:month:day.html
 
 # Build settings
@@ -27,9 +27,8 @@ username: codeyuyu
 user:
   email: codeyuyu@gmail.com
   github: http://github.com/codeyuyu
-  weibo: http://weibo.com/codeyuyu
-  weixin: codeyuyu
-  desc: 90后，有轻度的强迫症，有轻度的代码洁癖，喜欢编程并且享受编程。
+  weibo: http://weibo.com/nirvanafish
+  desc: 90后，金金的爸爸，喜欢旅游,坐标南京，有轻度的代码洁癖，喜欢编程并且享受编程。
 
 # 这里替换成线上的静态资源的链接。 主要最后的"/"。也要注意css使用的字体的链接。
 pub:
