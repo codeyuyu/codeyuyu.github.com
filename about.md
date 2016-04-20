@@ -12,7 +12,7 @@ permalink: /about/
 	{% endif %}
 	{% if site.user.weibo%}
 	<p>
-		<em>weibo</em> : <a href="{{ site.user.weibo }}">weibo.com/{{ site.username }}</a>
+		<em>weibo</em> : <a href="{{ site.user.weibo }}">weibo.com/nirvanafish</a>
 	</p>
 	{% endif %}
 	{% if site.user.twitter%}
