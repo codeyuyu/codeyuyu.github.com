@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Hello World
+title:  Hello World, hello Github
 categories: others
 ---
 
-hello world, hello github;
+hello world, hello Github;
 
 ## 博客特色 ##
 
