@@ -1,15 +1,40 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
+<div class="about">
+	<h2>基本信息</h2>
+	{% if site.user.email%}
+	<p>
+		<em>email</em> : <a href="mailto:{{ site.user.email }}">codeyuyu@gmail.com</a>
+	</p>
+	{% endif %}
+	{% if site.user.weibo%}
+	<p>
+		<em>weibo</em> : <a href="{{ site.user.weibo }}">weibo.com/{{ site.username }}</a>
+	</p>
+	{% endif %}
+	{% if site.user.twitter%}
+	<p>
+		<em>twitter</em> : <a href="{{ site.user.twitter }}">twitter.com/{{ site.username }}</a>
+	</p>
+	{% endif %}
+	{% if site.user.github %}
+	<p>
+		<em>github</em> : <a href="{{ site.user.github}} ">github.com/{{ site.username }}</a>
+	</p>
+	{% endif %}
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+	{% if site.user.desc %}
+		<h2>个人简介</h2>
+		<p>
+			{{ site.user.desc }}
+		</p>
+	{% endif %}
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+
+	{% include extends/disqus.html %}
+</div>
+

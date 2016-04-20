@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<article class="post">
+<div class="post">
+	<!--页面标题-->
+	<header>
+		<h1 class="post-title">{{ page.title }}</h1>
+	</header>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
+	<!--页面内容-->
+	<article class="post-content">
+		{{ content }}
+	</article>
+</div>
