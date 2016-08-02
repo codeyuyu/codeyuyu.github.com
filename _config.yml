@@ -32,8 +32,8 @@ user:
 
 # 这里替换成线上的静态资源的链接。 主要最后的"/"。也要注意css使用的字体的链接。
 pub:
-  css: http://7xjddt.com1.z0.glb.clouddn.com/
-  js: http://7xjddx.com1.z0.glb.clouddn.com/
+  css: http://7qnbpa.com1.z0.glb.clouddn.com/
+  js: http://7qnbpa.com1.z0.glb.clouddn.com/
   image: https://avatars0.githubusercontent.com/u/1551791?v=3&s=460
   #这里直接用的gitbug上的资源
 
